@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "main": "server.js",
+  "scripts": {
+    "build:frontend": "npm run build --prefix ../pulse-gurgaon-stream"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "groq-sdk": "^1.1.2",
