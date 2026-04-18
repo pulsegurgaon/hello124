@@ -1,0 +1,11 @@
+# Render.yaml Configuration
+
+services:
+  - type: web
+    name: hello124
+    env: node
+    plan: starter
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: backend
